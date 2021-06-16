@@ -10,9 +10,6 @@ if(novelname == "the vanishing"){
 }
  else if(novelname == "children's bible")
 {document.write("<p>"+ "enjoy your reading"+"</p>"+"<a href='https://www.amazon.com/Childrens-Bible-Lydia-Millet/dp/1690592435'>A Children's Bible </a")
- 
- 
-
 
 }
 else{
