@@ -1,6 +1,6 @@
 var utherName = prompt("what is the Auther name ?")
 
-alert("welcome to the best novels of 2020 website " )
+alert("welcome to the best novels of 2020 website " + utherName  )
 
 var novelname = prompt("what is the novel name ?")
 
