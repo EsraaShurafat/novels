@@ -1,23 +1,28 @@
-var userName = prompt("what is the your name ?")
+
+var userName = prompt("what is your name ?")
 
 alert("welcome to the best novels of 2020 website " + userName  )
 
-var novelname = prompt("what is the novel name ?")
+function favNovle(){
+  var novelname= prompt(" what is the novle name?(the vanishing or children's bible)")
 
-while (novelname != "the vanishing" && novelname!= "children's bible") {
+ while (novelname != "the vanishing" && novelname!= "children's bible") {
 
   novelname = prompt(" pelase! try gain ?")
+ }
+ 
+}
+favNovle();
+
+
+
+function rateUs(){
+ var starnum = prompt("How many stars do you want for your novle ? ")
+
+for(var x = 1 ; x <= starnum && x >0;x++){
+
+  document.write("<img src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/star_2b50.png'>")
 
 }
-
-
-if(novelname == "the vanishing"){
-  document.write("<p>"+ "enjoy your reading"+"</p>"+"<a href='https://www.amazon.co.uk/Vanishing-Half-bestselling-author-Mothers/dp/0349701466'>The Vanishing Half</a>")
 }
- else if(novelname == "children's bible")
-{document.write("<p>"+ "enjoy your reading"+"</p>"+"<a href='https://www.amazon.com/Childrens-Bible-Lydia-Millet/dp/1690592435'>A Children's Bible </a")
-
-}
-else{
-  alert("the novel doesnt here and thank for your visit.")
-}
+rateUs();
